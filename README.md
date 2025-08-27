@@ -1,123 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyad Yasser Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfcfb;
+      color: #333;
+    }
+    header {
+      background: #4a3c2a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #6b5b46;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #4a3c2a;
+      border-bottom: 2px solid #e0d6c6;
+      padding-bottom: 5px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    .contact {
+      background: #4a3c2a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact a {
+      color: #ffd966;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zyad Yasser Mohamed</h1>
+    <p>Electronics & Electrical Communication Engineer</p>
+    <p>Portfolio</p>
+  </header>
 
-<h1 align="center">
-  <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
-  <br>
-  Markdownify
-  <br>
-</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am an Electronics Engineering student with a strong interest in digital design, embedded systems, and FPGA development. I enjoy building practical projects that combine hardware and software. My goal is to apply engineering knowledge to solve real-world problems, while continuously improving my technical and research skills.</p>
+    <h3>Why Me?</h3>
+    <p>You should choose me because I bring a combination of technical knowledge, hands-on project experience, and a passion for continuous learning. From designing processors on FPGA to working with Arduino applications, I have proven my ability to turn concepts into working solutions.</p>
+  </section>
 
-<p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
-  </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
-  </a>
-</p>
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Cairo University</strong> – Electronics & Electrical Communications (Aug 2023 – Jan 2028)<br>GPA: 3.22</p>
+    <p>Training: Timmerman Industries, National Telecommunication Institute (NTI)</p>
+  </section>
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
-  <a href="#license">License</a>
-</p>
+  <section id="skills">
+    <h2>Skills & Expertise</h2>
+    <ul>
+      <li>Digital Design & FPGA (Verilog, Vivado, ModelSim)</li>
+      <li>Embedded Systems & Arduino</li>
+      <li>PCB Design</li>
+      <li>Circuit Simulation & Debugging</li>
+      <li>MATLAB for modeling & testing</li>
+    </ul>
+  </section>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+  <section id="projects">
+    <h2>Previous Projects</h2>
+    <ul>
+      <li>Designed and implemented an 8-bit processor on FPGA using Verilog</li>
+      <li>Developed an I2C master protocol for device communication</li>
+      <li>Created PISO and SIPO converters for data transfer</li>
+      <li>Designed a clock divider for accurate timing signals</li>
+      <li>Built an Arduino-based smart car with sensors and obstacle avoidance</li>
+    </ul>
+  </section>
 
-## Key Features
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Successfully completed FPGA-based 8-bit processor design</li>
+      <li>Developed working I2C communication protocol</li>
+      <li>Arduino automation and robotics projects</li>
+      <li>Hands-on training at NTI in FPGA and digital systems</li>
+    </ul>
+  </section>
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-
-## Download
-
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
-
-## Emailware
-
-Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
-
-## Credits
-
-This software uses the following open source packages:
-
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
-
-## Related
-
-[Try Web version of Markdownify](https://notepad.js.org/markdown-editor/)
-
-## Support
-
-If you like this project and think it has helped in any way, consider buying me a coffee!
-
-<a href="https://buymeacoffee.com/amitmerchant" target="_blank"><img src="app/img/bmc-button.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-## You may also like...
-
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
-## License
-
-MIT
-
----
-
-> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
-> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
-> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
-
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Mokatam, Cairo</p>
+    <p>📞 +20 1551667933</p>
+    <p>📧 <a href="mailto:zeiad.ahmed04@eng-st.cu.edu.eg">zeiad.ahmed04@eng-st.cu.edu.eg</a></p>
+  </section>
+</body>
+</html>
