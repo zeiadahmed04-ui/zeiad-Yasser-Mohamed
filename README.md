@@ -120,8 +120,9 @@
   <section id="education">
     <h2>Education</h2>
     <p><strong>Cairo University</strong> – Electronics & Electrical Communications (Aug 2023 – Jan 2028)<br>GPA: 3.22</p>
-     <img src="Picture1 (1).png" alt="Skills illustration">
-    <p>Training: Timmerman Industries, National Telecommunication Institute (NTI)</p>
+    <p>Training: SMART technology, National Telecommunication Institute (NTI)</p>
+    <img src="Picture1 (1).png" alt="Skills illustration">
+   
   </section>
 
   <!-- Skills Section -->
@@ -148,7 +149,7 @@
       <li>Built an Arduino-based smart car with sensors and obstacle avoidance</li>
     </ul>
     <img src="Picture5.png" alt="8-bit processor project">
-    <img src="Picture7.png" alt="Smart car project">
+    <img src="Picture5.png" alt="Smart car project">
   </section>
 
   <!-- Achievements Section -->
