@@ -91,7 +91,7 @@
 <body>
   <!-- Header -->
   <header>
-    <img src="WhatsApp Image 2025-08-26 at 20.29.45_f00a4dff.jpg" alt="Profile Picture" width="150" style="border-radius: 50%; border: 3px solid #fff;">
+    <img src="[WhatsApp Image 2025-08-26 at 20.29.45_f00a4dff.jpg](https://github.com/zeiadahmed04-ui/zeiad-Yasser-Mohamed/blob/d5bf0c9f6220d07951ddbd5a4d4948406cdb161a/WhatsApp%20Image%202025-08-26%20at%2020.44.57_fd487b78.jpg)" alt="Profile Picture" width="150" style="border-radius: 50%; border: 3px solid #fff;">
     <h1>Zyad Yasser Mohamed</h1>
     <p>Electronics & Electrical Communication Engineer</p>
     <p>Portfolio</p>
