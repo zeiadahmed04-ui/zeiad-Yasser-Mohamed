@@ -91,7 +91,7 @@
 <body>
   <!-- Header -->
   <header>
-    <img src="images/profile.jpg" alt="Profile Picture" width="150" style="border-radius: 50%; border: 3px solid #fff;">
+    <img src="WhatsApp Image 2025-08-26 at 20.29.45_f00a4dff.jpg" alt="Profile Picture" width="150" style="border-radius: 50%; border: 3px solid #fff;">
     <h1>Zyad Yasser Mohamed</h1>
     <p>Electronics & Electrical Communication Engineer</p>
     <p>Portfolio</p>
