@@ -149,7 +149,7 @@
       <li>Built an Arduino-based smart car with sensors and obstacle avoidance</li>
     </ul>
     <img src="Picture5.png" alt="8-bit processor project">
-    <img src="Picture5.png" alt="Smart car project">
+
   </section>
 
   <!-- Achievements Section -->
