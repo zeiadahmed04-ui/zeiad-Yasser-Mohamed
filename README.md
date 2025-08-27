@@ -132,7 +132,7 @@
       <li>Circuit Simulation & Debugging</li>
       <li>MATLAB for modeling & testing</li>
     </ul>
-    <img src="images/skills-placeholder.jpg" alt="Skills illustration">
+    <img src="[images/skills-placeholder.jpg](https://github.com/zeiadahmed04-ui/zeiad-Yasser-Mohamed/blob/5f49af39b9d372ffde709b0d61c0c2b4ced8b5d1/Picture4.png)" alt="Skills illustration">
   </section>
 
   <!-- Projects Section -->
