@@ -5,126 +5,119 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zyad Yasser Portfolio</title>
   <style>
-    /* --- Global Styles --- */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fdfcfb;
+      background: #fff;
       color: #333;
+      line-height: 1.6;
     }
-    h1, h2 {
-      color: #4a3c2a;
+    h1, h2, h3 {
+      color: #2c2c2c;
     }
     a {
       text-decoration: none;
-      color: inherit;
+      color: #0366d6;
     }
-
-    /* --- Header --- */
-    header {
-      background: #4a3c2a;
-      color: white;
-      padding: 60px 20px;
+    a:hover {
+      text-decoration: underline;
+    }
+    p {
+      max-width: 800px;
+      margin: auto;
+    }
+    .center {
       text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.8em;
+    header img {
+      border-radius: 50%;
+      border: 3px solid #eee;
     }
-    header p {
-      margin: 5px 0;
-      font-size: 1.2em;
-    }
-
-    /* --- Navigation --- */
     nav {
-      background: #6b5b46;
-      padding: 12px;
-      text-align: center;
+      margin: 20px 0;
     }
     nav a {
-      color: white;
-      margin: 0 15px;
+      margin: 0 12px;
       font-weight: bold;
     }
-    nav a:hover {
-      color: #ffd966;
-    }
-
-    /* --- Sections --- */
     section {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 20px;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
     }
-    section img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin: 10px 0;
+    ul {
+      max-width: 800px;
+      margin: auto;
     }
-
-    /* --- Contact --- */
+    ul li {
+      margin: 8px 0;
+    }
     .contact {
-      background: #4a3c2a;
-      color: white;
-      padding: 30px;
       text-align: center;
+      background: #f6f8fa;
+      padding: 40px;
+      margin-top: 40px;
     }
-    .contact a {
-      color: #ffd966;
-    }
-
-    /* --- Responsive --- */
-    @media (max-width: 768px) {
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-      nav a {
-        margin: 5px 10px;
-      }
+    .badges img {
+      margin: 0 5px;
+      height: 25px;
     }
   </style>
 </head>
 <body>
+
   <!-- Header -->
-  <header>
-    <img src="WhatsApp Image 2025-08-26 at 20.29.45_f00a4dff.jpg" alt="Profile Picture" width="150" style="border-radius: 50%; border: 3px solid #fff;">
-    <h1>Zyad Yasser Mohamed</h1>
-    <p>Electronics & Electrical Communication Engineer</p>
-    <p>Portfolio</p>
-  </header>
+  <h1 class="center">
+    <br>
+    <img src="WhatsApp Image 2025-08-26 at 20.29.45_f00a4dff.jpg" alt="Profile Picture" width="150">
+    <br>
+    Zyad Yasser Mohamed
+    <br>
+  </h1>
+  <h4 class="center">Electronics & Electrical Communication Engineer • Portfolio</h4>
+
+  <!-- Badges / Quick Links -->
+  <p class="center badges">
+    <a href="mailto:zeiad.ahmed04@eng-st.cu.edu.eg">
+      <img src="https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail">
+    </a>
+    <a href="https://github.com/zeiadahmed">
+      <img src="https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github">
+    </a>
+    <a href="https://www.linkedin.com/in/zeiadahmed04/">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin">
+    </a>
+  </p>
 
   <!-- Navigation -->
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#achievements">Achievements</a>
+  <p class="center">
+    <a href="#about">About</a> •
+    <a href="#education">Education</a> •
+    <a href="#skills">Skills</a> •
+    <a href="#projects">Projects</a> •
+    <a href="#achievements">Achievements</a> •
     <a href="#contact">Contact</a>
-  </nav>
+  </p>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
-    <h2>About Me</h2>
+    <h2 class="center">About Me</h2>
     <p>I am an Electronics Engineering student with a strong interest in digital design, embedded systems, and FPGA development. I enjoy building practical projects that combine hardware and software. My goal is to apply engineering knowledge to solve real-world problems, while continuously improving my technical and research skills.</p>
-    <h3>Why Me?</h3>
+    <h3 class="center">Why Me?</h3>
     <p>You should choose me because I bring a combination of technical knowledge, hands-on project experience, and a passion for continuous learning. From designing processors on FPGA to working with Arduino applications, I have proven my ability to turn concepts into working solutions.</p>
   </section>
 
-  <!-- Education Section -->
+  <!-- Education -->
   <section id="education">
-    <h2>Education</h2>
+    <h2 class="center">Education</h2>
     <p><strong>Cairo University</strong> – Electronics & Electrical Communications (Aug 2023 – Jan 2028)<br>GPA: 3.22</p>
     <p>Training: Timmerman Industries, National Telecommunication Institute (NTI)</p>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills -->
   <section id="skills">
-    <h2>Skills & Expertise</h2>
+    <h2 class="center">Skills & Expertise</h2>
     <ul>
       <li>Digital Design & FPGA (Verilog, Vivado, ModelSim)</li>
       <li>Embedded Systems & Arduino</li>
@@ -132,12 +125,12 @@
       <li>Circuit Simulation & Debugging</li>
       <li>MATLAB for modeling & testing</li>
     </ul>
-    <img src="Picture2.png" alt="Skills illustration">
+    <p class="center"><img src="Picture2.png" alt="Skills illustration" width="400"></p>
   </section>
 
-  <!-- Projects Section -->
+  <!-- Projects -->
   <section id="projects">
-    <h2>Previous Projects</h2>
+    <h2 class="center">Previous Projects</h2>
     <ul>
       <li>Designed and implemented an 8-bit processor on FPGA using Verilog</li>
       <li>Developed an I2C master protocol for device communication</li>
@@ -145,28 +138,31 @@
       <li>Designed a clock divider for accurate timing signals</li>
       <li>Built an Arduino-based smart car with sensors and obstacle avoidance</li>
     </ul>
-    <img src="Picture5.png" alt="8-bit processor project">
-    <img src="Picture7.png" alt="Smart car project">
+    <p class="center">
+      <img src="Picture5.png" alt="8-bit processor project" width="400">
+      <img src="Picture7.png" alt="Smart car project" width="400">
+    </p>
   </section>
 
-  <!-- Achievements Section -->
+  <!-- Achievements -->
   <section id="achievements">
-    <h2>Achievements</h2>
+    <h2 class="center">Achievements</h2>
     <ul>
       <li>Successfully completed FPGA-based 8-bit processor design</li>
       <li>Developed working I2C communication protocol</li>
       <li>Arduino automation and robotics projects</li>
       <li>Hands-on training at NTI in FPGA and digital systems</li>
     </ul>
-    <img src="Picture3.png" alt="Achievements">
+    <p class="center"><img src="Picture3.png" alt="Achievements" width="400"></p>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact -->
   <section id="contact" class="contact">
     <h2>Contact</h2>
     <p>Mokatam, Cairo</p>
     <p>📞 +20 1551667933</p>
     <p>📧 <a href="mailto:zeiad.ahmed04@eng-st.cu.edu.eg">zeiad.ahmed04@eng-st.cu.edu.eg</a></p>
   </section>
+
 </body>
 </html>
