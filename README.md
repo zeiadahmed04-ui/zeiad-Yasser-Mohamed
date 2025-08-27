@@ -132,7 +132,7 @@
       <li>Circuit Simulation & Debugging</li>
       <li>MATLAB for modeling & testing</li>
     </ul>
-    <img src="Picture1 (1).png" alt="Skills illustration">
+    <img src="Picture2.png" alt="Skills illustration">
   </section>
 
   <!-- Projects Section -->
