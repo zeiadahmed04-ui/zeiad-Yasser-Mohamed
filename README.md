@@ -145,8 +145,8 @@
       <li>Designed a clock divider for accurate timing signals</li>
       <li>Built an Arduino-based smart car with sensors and obstacle avoidance</li>
     </ul>
-    <img src="images/project1.jpg" alt="8-bit processor project">
-    <img src="images/project2.jpg" alt="Smart car project">
+    <img src="Picture5.png" alt="8-bit processor project">
+    <img src="Picture7.png" alt="Smart car project">
   </section>
 
   <!-- Achievements Section -->
@@ -158,7 +158,7 @@
       <li>Arduino automation and robotics projects</li>
       <li>Hands-on training at NTI in FPGA and digital systems</li>
     </ul>
-    <img src="images/achievements.jpg" alt="Achievements">
+    <img src="Picture3.png" alt="Achievements">
   </section>
 
   <!-- Contact Section -->
